@@ -1,0 +1,688 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Online-zoo</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" type="image/png" href="../../assets/icons/Favicon.png"/>
+</head>
+<body>
+
+<header class="header">
+    <h1>Online Zoo</h1>
+    <div class="container">
+        <div class="header__inner">
+            <a class="logo" href="../main/index.html">
+                <img src="../../assets/icons/Logo.svg" alt="logo">
+            </a>
+            <nav class="header__nav">
+                <div class="burger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                        <span></span>
+                    </label>
+                    <ul class="header__menu">
+                        <li class="header__menu-item"><a class="header__menu-link link__active"
+                                                         href="../main/index.html">About</a>
+                        </li>
+                        <li class="header__menu-item"><a class="header__menu-link" href="../map/map.html">Map</a></li>
+                        <li class="header__menu-item"><a class="header__menu-link"
+                                                         href="../zoos/panda/panda.html">Zoos</a></li>
+                        <li class="header__menu-item"><a class="header__menu-link" href="../contact/contact.html">Contact
+                            us</a></li>
+                        <li class="header__menu-item"><a class="header__menu-link"
+                                                         href="https://www.figma.com/file/lnK11foY8Aoa6oOlDXovVN/Online-ZOO-Project?node-id=0%3A1">Design</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="header__social">
+                    <li class="header__social-item"><a class="header__social-link social__youtube"
+                                                       href="https://www.youtube.com/"></a></li>
+                    <li class="header__social-item"><a class="header__social-link social__instagram"
+                                                       href="https://www.instagram.com/"></a></li>
+                    <li class="header__social-item"><a class="header__social-link social__facebook"
+                                                       href="https://www.facebook.com/"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<section class="watch-animal">
+    <div class="container">
+        <h2 class="watch-animal__title">Watch your favorite animal online</h2>
+        <p class="watch-animal__text">Explore the exciting and mysterious world of wild animals in a natural setting
+            without leaving your home.</p>
+
+        <a class="btn-orange" href="../zoos/panda/panda.html">
+            <div class="btn__text">VIEW LIVE CAM</div>
+            <div class="btn__img"><img src="../../assets/icons/Arrow-W.svg" alt="arrow"></div>
+        </a>
+
+    </div>
+</section>
+
+<section class="welcome">
+    <div class="container">
+        <div class="welcome__top">
+            <div class="welcome__top-article">
+                <h3 class="welcome__title">Welcome to the Online Zoo! </h3>
+                <p class="welcome__text">On our website, using live webcams, fans of all ages can observe various
+                    animals. Among them, are Giant pandas, eagles, alligators, forest gorillas, African lions, and
+                    others. It is the whole natural world in real-time in front of our cameras. We hope you will enjoy
+                    watching closely and explore animals’ behavior and habitats! Note: animals are not always on view on
+                    cameras, so please check back if you don't see anything.</p>
+            </div>
+            <div class="welcome__img">
+                <img src="../../assets/images/welcome.jpg" alt="welcome">
+            </div>
+        </div>
+        <div class="welcome__bottom">
+            <div class="welcome__img">
+                <img src="../../assets/images/eagle.png" alt="eagles">
+            </div>
+            <div class="welcome__bottom-article">
+                <h3 class="welcome__title">How we work</h3>
+                <p class="welcome__text">Online Zoo is a nonprofit committed to inspiring awareness and preservation of
+                    nature and wild animals in our zoo and worldwide. Every day, our experts work to safeguard the
+                    health and wellness of the animals. To continue these efforts, we need your help. We're so grateful
+                    to our numerous supporters. All donations, large and small, go a long way to the conservation
+                    efforts of our pets.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="donation">
+    <div class="container">
+        <div class="donation__wrap">
+            <div class="donation__article">
+                <h4 class="donation__title">Your donation makes a difference! </h4>
+                <p class="donation__text">The Online Zoo's animal webcams are some of the most famous on the internet.
+                    Tune in to watch your favourite animals — live, 24/7!</p>
+            </div>
+            <div class="donation__aside">
+                <p class="donation__subtitle">Quick Donate</p>
+                <form class="donation__form" action="#">
+                    <input class="donation__input" type="number" min="0" max="9999" maxlength="4"
+                           placeholder="Donation Amount">
+                    <button class="donation__btn">
+                        <img src="../../assets/icons/Arrow-W.svg" alt="arrow">
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="meet-friends">
+    <div class="container">
+        <div class="meet-friends__article">
+            <h3 class="meet-friends__title">meet some our Pets </h3>
+            <p class="meet-friends__text">Do you have a special place in your heart for animals? Who are your favorites?
+                Perhaps you'd like to
+                donate to special ones or all our pets? We think it's important for you to choose how your donation is
+                used. </p>
+        </div>
+
+        <div class="meet-friends__slider">
+            <div class="meet-friends__slider-btns">
+                <button class="meet-friends__slider-btn-left">
+                    <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M11.9318 0.119971C12.1139 0.199174 12.2794 0.315255 12.4187 0.461565C12.5583 0.607505 12.6691 0.780876 12.7446 0.971748C12.8202 1.16262 12.8591 1.36724 12.8591 1.57389C12.8591 1.78055 12.8202 1.98517 12.7446 2.17604C12.6691 2.36691 12.5583 2.54028 12.4187 2.68622L6.39097 9H23.5416C23.9659 9 24.3729 9.21071 24.673 9.58579C24.973 9.96086 25.1416 10.4696 25.1416 11C25.1416 11.5304 24.973 12.0391 24.673 12.4142C24.3729 12.7893 23.9659 13 23.5416 13H6.39018L12.4187 19.3146C12.7002 19.6096 12.8584 20.0097 12.8584 20.4269C12.8584 20.8441 12.7002 21.2443 12.4187 21.5393C12.1371 21.8343 11.7553 22 11.3571 22C10.959 22 10.5771 21.8343 10.2956 21.5393L1.29962 12.1127C1.15999 11.9668 1.04921 11.7934 0.973627 11.6026C0.898043 11.4117 0.859135 11.2071 0.859135 11.0004C0.859135 10.7938 0.898043 10.5891 0.973627 10.3983C1.04921 10.2074 1.15999 10.034 1.29962 9.88808L10.2956 0.461565C10.4349 0.315255 10.6003 0.199174 10.7825 0.119971C10.9646 0.0407677 11.1599 0 11.3571 0C11.5543 0 11.7496 0.0407677 11.9318 0.119971Z"
+                              fill="#20113D"/>
+                    </svg>
+                </button>
+                <button class="meet-friends__slider-btn-right">
+                    <svg class=" btn__active" width="26" height="22" viewBox="0 0 26 22" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"
+                              fill="#20113D"/>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="meet-friends__slider-top">
+                <a class="card__link" href="../zoos/panda/panda.html">
+                    <div class="meet-friends__slider-card">
+                        <span class="meet-friends__slider-card__name">Lucas</span>
+                        <div class="meet-friends__slider-card__img">
+                            <img src="../../assets/images/panda.jpg" alt="panda">
+                        </div>
+                        <div class="meet-friends__slider-card__bottom">
+                            <h5 class="meet-friends__slider-card__title">Giant Panda</h5>
+                            <p class="meet-friends__slider-card__text">Native to central China, giant pandas have come
+                                to symbolize vulnerable species.</p>
+                            <a class="meet-friends__slider-card__btn" href="../zoos/panda/panda.html">
+                                <div class="meet-friends__slider-card__btn-text">VIEW LIVE CAM</div>
+                                <svg width="28" height="25" viewBox="0 0 28 25" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M15.2039 0.24596C14.9987 0.335165 14.8124 0.465905 14.6555 0.630691C14.4982 0.795061 14.3735 0.990325 14.2883 1.2053C14.2032 1.42027 14.1594 1.65074 14.1594 1.88349C14.1594 2.11623 14.2032 2.3467 14.2883 2.56167C14.3735 2.77665 14.4982 2.97191 14.6555 3.13628L21.4444 10.2474H2.12822C1.65029 10.2474 1.19193 10.4847 0.85398 10.9071C0.51603 11.3296 0.326172 11.9025 0.326172 12.4999C0.326172 13.0973 0.51603 13.6703 0.85398 14.0927C1.19193 14.5152 1.65029 14.7525 2.12822 14.7525H21.4453L14.6555 21.8645C14.3384 22.1967 14.1603 22.6474 14.1603 23.1173C14.1603 23.5872 14.3384 24.0378 14.6555 24.3701C14.9726 24.7023 15.4027 24.889 15.8511 24.889C16.2995 24.889 16.7296 24.7023 17.0467 24.3701L27.1786 13.7532C27.3359 13.5888 27.4607 13.3935 27.5458 13.1786C27.6309 12.9636 27.6748 12.7331 27.6748 12.5004C27.6748 12.2676 27.6309 12.0372 27.5458 11.8222C27.4607 11.6072 27.3359 11.412 27.1786 11.2476L17.0467 0.630691C16.8898 0.465905 16.7034 0.335165 16.4983 0.24596C16.2931 0.156756 16.0732 0.11084 15.8511 0.11084C15.629 0.11084 15.409 0.156756 15.2039 0.24596Z"
+                                          fill="#F58021"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="card__link" href="../zoos/lemur/lemur.html">
+                    <div class="meet-friends__slider-card">
+                        <span class="meet-friends__slider-card__name">Andy</span>
+                        <div class="meet-friends__slider-card__img">
+                            <img src="../../assets/images/lemur.jpg" alt="lemur">
+                        </div>
+                        <div class="meet-friends__slider-card__bottom">
+                            <h5 class="meet-friends__slider-card__title">Madagascarian Lemur</h5>
+                            <p class="meet-friends__slider-card__text">Lemurs are considered the world’s most endangered
+                                group of mammals.<br><br></p>
+                            <a class="meet-friends__slider-card__btn" href="../zoos/lemur/lemur.html">
+                                <div class="meet-friends__slider-card__btn-text">VIEW LIVE CAM</div>
+                                <svg width="28" height="25" viewBox="0 0 28 25" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M15.2039 0.24596C14.9987 0.335165 14.8124 0.465905 14.6555 0.630691C14.4982 0.795061 14.3735 0.990325 14.2883 1.2053C14.2032 1.42027 14.1594 1.65074 14.1594 1.88349C14.1594 2.11623 14.2032 2.3467 14.2883 2.56167C14.3735 2.77665 14.4982 2.97191 14.6555 3.13628L21.4444 10.2474H2.12822C1.65029 10.2474 1.19193 10.4847 0.85398 10.9071C0.51603 11.3296 0.326172 11.9025 0.326172 12.4999C0.326172 13.0973 0.51603 13.6703 0.85398 14.0927C1.19193 14.5152 1.65029 14.7525 2.12822 14.7525H21.4453L14.6555 21.8645C14.3384 22.1967 14.1603 22.6474 14.1603 23.1173C14.1603 23.5872 14.3384 24.0378 14.6555 24.3701C14.9726 24.7023 15.4027 24.889 15.8511 24.889C16.2995 24.889 16.7296 24.7023 17.0467 24.3701L27.1786 13.7532C27.3359 13.5888 27.4607 13.3935 27.5458 13.1786C27.6309 12.9636 27.6748 12.7331 27.6748 12.5004C27.6748 12.2676 27.6309 12.0372 27.5458 11.8222C27.4607 11.6072 27.3359 11.412 27.1786 11.2476L17.0467 0.630691C16.8898 0.465905 16.7034 0.335165 16.4983 0.24596C16.2931 0.156756 16.0732 0.11084 15.8511 0.11084C15.629 0.11084 15.409 0.156756 15.2039 0.24596Z"
+                                          fill="#F58021"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="card__link" href="../zoos/gorilla/gorilla.html">
+                    <div class="meet-friends__slider-card">
+                        <span class="meet-friends__slider-card__name">Glen</span>
+                        <div class="meet-friends__slider-card__img">
+                            <img src="../../assets/images/gorilla.jpg" alt="gorilla">
+                        </div>
+                        <div class="meet-friends__slider-card__bottom">
+                            <h5 class="meet-friends__slider-card__title">Gorilla in Congo</h5>
+                            <p class="meet-friends__slider-card__text">Variety of snacks very important for the healthy
+                                life of gorillas and his plenty of babies.</p>
+                            <a class="meet-friends__slider-card__btn" href="../zoos/gorilla/gorilla.html">
+                                <div class="meet-friends__slider-card__btn-text">VIEW LIVE CAM</div>
+                                <svg width="28" height="25" viewBox="0 0 28 25" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M15.2039 0.24596C14.9987 0.335165 14.8124 0.465905 14.6555 0.630691C14.4982 0.795061 14.3735 0.990325 14.2883 1.2053C14.2032 1.42027 14.1594 1.65074 14.1594 1.88349C14.1594 2.11623 14.2032 2.3467 14.2883 2.56167C14.3735 2.77665 14.4982 2.97191 14.6555 3.13628L21.4444 10.2474H2.12822C1.65029 10.2474 1.19193 10.4847 0.85398 10.9071C0.51603 11.3296 0.326172 11.9025 0.326172 12.4999C0.326172 13.0973 0.51603 13.6703 0.85398 14.0927C1.19193 14.5152 1.65029 14.7525 2.12822 14.7525H21.4453L14.6555 21.8645C14.3384 22.1967 14.1603 22.6474 14.1603 23.1173C14.1603 23.5872 14.3384 24.0378 14.6555 24.3701C14.9726 24.7023 15.4027 24.889 15.8511 24.889C16.2995 24.889 16.7296 24.7023 17.0467 24.3701L27.1786 13.7532C27.3359 13.5888 27.4607 13.3935 27.5458 13.1786C27.6309 12.9636 27.6748 12.7331 27.6748 12.5004C27.6748 12.2676 27.6309 12.0372 27.5458 11.8222C27.4607 11.6072 27.3359 11.412 27.1786 11.2476L17.0467 0.630691C16.8898 0.465905 16.7034 0.335165 16.4983 0.24596C16.2931 0.156756 16.0732 0.11084 15.8511 0.11084C15.629 0.11084 15.409 0.156756 15.2039 0.24596Z"
+                                          fill="#F58021"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="card__link" href="">
+                    <div class="meet-friends__slider-card">
+                        <span class="meet-friends__slider-card__name">Mike</span>
+                        <div class="meet-friends__slider-card__img">
+                            <img src="../../assets/images/alligator.jpg" alt="alligator">
+                        </div>
+                        <div class="meet-friends__slider-card__bottom">
+                            <h5 class="meet-friends__slider-card__title">Chinese Alligator</h5>
+                            <p class="meet-friends__slider-card__text">From nose to tail, belly to back, hard scales
+                                protect this petite alligator. <br><br></p>
+                            <a class="meet-friends__slider-card__btn" href="">
+                                <div class="meet-friends__slider-card__btn-text">VIEW LIVE CAM</div>
+                                <svg width="28" height="25" viewBox="0 0 28 25" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M15.2039 0.24596C14.9987 0.335165 14.8124 0.465905 14.6555 0.630691C14.4982 0.795061 14.3735 0.990325 14.2883 1.2053C14.2032 1.42027 14.1594 1.65074 14.1594 1.88349C14.1594 2.11623 14.2032 2.3467 14.2883 2.56167C14.3735 2.77665 14.4982 2.97191 14.6555 3.13628L21.4444 10.2474H2.12822C1.65029 10.2474 1.19193 10.4847 0.85398 10.9071C0.51603 11.3296 0.326172 11.9025 0.326172 12.4999C0.326172 13.0973 0.51603 13.6703 0.85398 14.0927C1.19193 14.5152 1.65029 14.7525 2.12822 14.7525H21.4453L14.6555 21.8645C14.3384 22.1967 14.1603 22.6474 14.1603 23.1173C14.1603 23.5872 14.3384 24.0378 14.6555 24.3701C14.9726 24.7023 15.4027 24.889 15.8511 24.889C16.2995 24.889 16.7296 24.7023 17.0467 24.3701L27.1786 13.7532C27.3359 13.5888 27.4607 13.3935 27.5458 13.1786C27.6309 12.9636 27.6748 12.7331 27.6748 12.5004C27.6748 12.2676 27.6309 12.0372 27.5458 11.8222C27.4607 11.6072 27.3359 11.412 27.1786 11.2476L17.0467 0.630691C16.8898 0.465905 16.7034 0.335165 16.4983 0.24596C16.2931 0.156756 16.0732 0.11084 15.8511 0.11084C15.629 0.11084 15.409 0.156756 15.2039 0.24596Z"
+                                          fill="#F58021"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="meet-friends__slider-bottom">
+
+                <a class="card__link" href="../zoos/eagle/eagle.html">
+                    <div class="meet-friends__slider-card">
+                        <span class="meet-friends__slider-card__name">Sam & Lora</span>
+                        <div class="meet-friends__slider-card__img">
+                            <img src="../../assets/images/eagles.jpg" alt="eagles">
+                        </div>
+                        <div class="meet-friends__slider-card__bottom">
+                            <h5 class="meet-friends__slider-card__title">West End Bald Eagles</h5>
+                            <p class="meet-friends__slider-card__text">Pair of eagle parents lay and protect eggs, feed
+                                their chicks and teach them to hunt and fly.</p>
+                            <a class="meet-friends__slider-card__btn" href="">
+                                <div class="meet-friends__slider-card__btn-text">VIEW LIVE CAM</div>
+                                <svg width="28" height="25" viewBox="0 0 28 25" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M15.2039 0.24596C14.9987 0.335165 14.8124 0.465905 14.6555 0.630691C14.4982 0.795061 14.3735 0.990325 14.2883 1.2053C14.2032 1.42027 14.1594 1.65074 14.1594 1.88349C14.1594 2.11623 14.2032 2.3467 14.2883 2.56167C14.3735 2.77665 14.4982 2.97191 14.6555 3.13628L21.4444 10.2474H2.12822C1.65029 10.2474 1.19193 10.4847 0.85398 10.9071C0.51603 11.3296 0.326172 11.9025 0.326172 12.4999C0.326172 13.0973 0.51603 13.6703 0.85398 14.0927C1.19193 14.5152 1.65029 14.7525 2.12822 14.7525H21.4453L14.6555 21.8645C14.3384 22.1967 14.1603 22.6474 14.1603 23.1173C14.1603 23.5872 14.3384 24.0378 14.6555 24.3701C14.9726 24.7023 15.4027 24.889 15.8511 24.889C16.2995 24.889 16.7296 24.7023 17.0467 24.3701L27.1786 13.7532C27.3359 13.5888 27.4607 13.3935 27.5458 13.1786C27.6309 12.9636 27.6748 12.7331 27.6748 12.5004C27.6748 12.2676 27.6309 12.0372 27.5458 11.8222C27.4607 11.6072 27.3359 11.412 27.1786 11.2476L17.0467 0.630691C16.8898 0.465905 16.7034 0.335165 16.4983 0.24596C16.2931 0.156756 16.0732 0.11084 15.8511 0.11084C15.629 0.11084 15.409 0.156756 15.2039 0.24596Z"
+                                          fill="#F58021"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="card__link" href="">
+                    <div class="meet-friends__slider-card">
+                        <span class="meet-friends__slider-card__name">Liz</span>
+                        <div class="meet-friends__slider-card__img">
+                            <img src="../../assets/images/koala.jpg" alt="koala">
+                        </div>
+                        <div class="meet-friends__slider-card__bottom">
+                            <h5 class="meet-friends__slider-card__title">Australian Koala</h5>
+                            <p class="meet-friends__slider-card__text">The elevated walkways bring you to eye level with
+                                the koalas as they perch in their forest. </p>
+                            <a class="meet-friends__slider-card__btn" href="">
+                                <div class="meet-friends__slider-card__btn-text">VIEW LIVE CAM</div>
+                                <svg width="28" height="25" viewBox="0 0 28 25" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M15.2039 0.24596C14.9987 0.335165 14.8124 0.465905 14.6555 0.630691C14.4982 0.795061 14.3735 0.990325 14.2883 1.2053C14.2032 1.42027 14.1594 1.65074 14.1594 1.88349C14.1594 2.11623 14.2032 2.3467 14.2883 2.56167C14.3735 2.77665 14.4982 2.97191 14.6555 3.13628L21.4444 10.2474H2.12822C1.65029 10.2474 1.19193 10.4847 0.85398 10.9071C0.51603 11.3296 0.326172 11.9025 0.326172 12.4999C0.326172 13.0973 0.51603 13.6703 0.85398 14.0927C1.19193 14.5152 1.65029 14.7525 2.12822 14.7525H21.4453L14.6555 21.8645C14.3384 22.1967 14.1603 22.6474 14.1603 23.1173C14.1603 23.5872 14.3384 24.0378 14.6555 24.3701C14.9726 24.7023 15.4027 24.889 15.8511 24.889C16.2995 24.889 16.7296 24.7023 17.0467 24.3701L27.1786 13.7532C27.3359 13.5888 27.4607 13.3935 27.5458 13.1786C27.6309 12.9636 27.6748 12.7331 27.6748 12.5004C27.6748 12.2676 27.6309 12.0372 27.5458 11.8222C27.4607 11.6072 27.3359 11.412 27.1786 11.2476L17.0467 0.630691C16.8898 0.465905 16.7034 0.335165 16.4983 0.24596C16.2931 0.156756 16.0732 0.11084 15.8511 0.11084C15.629 0.11084 15.409 0.156756 15.2039 0.24596Z"
+                                          fill="#F58021"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="card__link" href="">
+                    <div class="meet-friends__slider-card">
+                        <span class="meet-friends__slider-card__name">Shake</span>
+                        <div class="meet-friends__slider-card__img">
+                            <img src="../../assets/images/lion.jpg" alt="lion">
+                        </div>
+                        <div class="meet-friends__slider-card__bottom">
+                            <h5 class="meet-friends__slider-card__title">African Lion</h5>
+                            <p class="meet-friends__slider-card__text">Lions roam the savannas and grasslands of Africa,
+                                hunting and raising cubs in the pride.</p>
+                            <a class="meet-friends__slider-card__btn" href="">
+                                <div class="meet-friends__slider-card__btn-text">VIEW LIVE CAM</div>
+                                <svg width="28" height="25" viewBox="0 0 28 25" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M15.2039 0.24596C14.9987 0.335165 14.8124 0.465905 14.6555 0.630691C14.4982 0.795061 14.3735 0.990325 14.2883 1.2053C14.2032 1.42027 14.1594 1.65074 14.1594 1.88349C14.1594 2.11623 14.2032 2.3467 14.2883 2.56167C14.3735 2.77665 14.4982 2.97191 14.6555 3.13628L21.4444 10.2474H2.12822C1.65029 10.2474 1.19193 10.4847 0.85398 10.9071C0.51603 11.3296 0.326172 11.9025 0.326172 12.4999C0.326172 13.0973 0.51603 13.6703 0.85398 14.0927C1.19193 14.5152 1.65029 14.7525 2.12822 14.7525H21.4453L14.6555 21.8645C14.3384 22.1967 14.1603 22.6474 14.1603 23.1173C14.1603 23.5872 14.3384 24.0378 14.6555 24.3701C14.9726 24.7023 15.4027 24.889 15.8511 24.889C16.2995 24.889 16.7296 24.7023 17.0467 24.3701L27.1786 13.7532C27.3359 13.5888 27.4607 13.3935 27.5458 13.1786C27.6309 12.9636 27.6748 12.7331 27.6748 12.5004C27.6748 12.2676 27.6309 12.0372 27.5458 11.8222C27.4607 11.6072 27.3359 11.412 27.1786 11.2476L17.0467 0.630691C16.8898 0.465905 16.7034 0.335165 16.4983 0.24596C16.2931 0.156756 16.0732 0.11084 15.8511 0.11084C15.629 0.11084 15.409 0.156756 15.2039 0.24596Z"
+                                          fill="#F58021"/>
+                                </svg>
+
+                            </a>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="card__link" href="">
+                    <div class="meet-friends__slider-card">
+                        <span class="meet-friends__slider-card__name">Senja</span>
+                        <div class="meet-friends__slider-card__img">
+                            <img src="../../assets/images/tiger.jpg" alt="tiger">
+                        </div>
+                        <div class="meet-friends__slider-card__bottom">
+                            <h5 class="meet-friends__slider-card__title">Sumatran Tiger</h5>
+                            <p class="meet-friends__slider-card__text">Sumatran Tigers are the smallest of the five
+                                sub-species, and are found in Indonesia.</p>
+                            <a class="meet-friends__slider-card__btn" href="">
+                                <div class="meet-friends__slider-card__btn-text">VIEW LIVE CAM</div>
+                                <svg width="28" height="25" viewBox="0 0 28 25" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M15.2039 0.24596C14.9987 0.335165 14.8124 0.465905 14.6555 0.630691C14.4982 0.795061 14.3735 0.990325 14.2883 1.2053C14.2032 1.42027 14.1594 1.65074 14.1594 1.88349C14.1594 2.11623 14.2032 2.3467 14.2883 2.56167C14.3735 2.77665 14.4982 2.97191 14.6555 3.13628L21.4444 10.2474H2.12822C1.65029 10.2474 1.19193 10.4847 0.85398 10.9071C0.51603 11.3296 0.326172 11.9025 0.326172 12.4999C0.326172 13.0973 0.51603 13.6703 0.85398 14.0927C1.19193 14.5152 1.65029 14.7525 2.12822 14.7525H21.4453L14.6555 21.8645C14.3384 22.1967 14.1603 22.6474 14.1603 23.1173C14.1603 23.5872 14.3384 24.0378 14.6555 24.3701C14.9726 24.7023 15.4027 24.889 15.8511 24.889C16.2995 24.889 16.7296 24.7023 17.0467 24.3701L27.1786 13.7532C27.3359 13.5888 27.4607 13.3935 27.5458 13.1786C27.6309 12.9636 27.6748 12.7331 27.6748 12.5004C27.6748 12.2676 27.6309 12.0372 27.5458 11.8222C27.4607 11.6072 27.3359 11.412 27.1786 11.2476L17.0467 0.630691C16.8898 0.465905 16.7034 0.335165 16.4983 0.24596C16.2931 0.156756 16.0732 0.11084 15.8511 0.11084C15.629 0.11084 15.409 0.156756 15.2039 0.24596Z"
+                                          fill="#F58021"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+            <a class="btn-navy" href="../map/map.html">
+                <div class="btn-navy__text">choose your favourite</div>
+                <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"
+                          fill="#20113D"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="pay-and-feed">
+    <div class="container">
+        <h3 class="pay-and-feed__title">PAY AND FEED</h3>
+
+        <div class="pay-and-feed__wrap">
+            <div class="pay-and-feed__list list-one">
+                <div class="pay-and-feed__numbers">
+                    <span>01</span>
+                    <hr>
+                </div>
+                <div class="pay-and-feed__items">
+                    <div class="pay-and-feed__img">
+                        <img src="../../assets/images/monkey.jpg" alt="monkey">
+                    </div>
+                    <div class="pay-and-feed__block">
+                        <div class="pay-and-feed__block_img">
+                            <img src="../../assets/icons/heart.svg" alt="">
+                        </div>
+                        <h5 class="pay-and-feed__block_heading">Your donation has an impact</h5>
+                        <p class="pay-and-feed__block_text">Providing our animals with high-quality nutritious diets is
+                            just one element of animal care at our Zoo. We do all the best so that our animals can eat
+                            food similar to what they might find in their natural habitats while making sure they get
+                            the right mix of nutrients, proteins, and vitamins to be happy and healthy. Please help us
+                            provide nutritious food for our animals by donating. The generosity of people like you can
+                            help us make sure that our animals enjoy good food that keeps them in great condition.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pay-and-feed__list list-two">
+                <div class="pay-and-feed__numbers">
+                    <span>02</span>
+                    <hr>
+                </div>
+                <div class="pay-and-feed__items">
+                    <div class="pay-and-feed__img">
+                        <img src="../../assets/images/banana.jpg" alt="bananas">
+                    </div>
+                    <div class="pay-and-feed__block">
+                        <div class="pay-and-feed__block_img">
+                            <img src="../../assets/icons/card.svg" alt="">
+                        </div>
+                        <h5 class="pay-and-feed__block_heading">Make a donation</h5>
+                        <p class="pay-and-feed__block_text">You can donate through your credit card without
+                            any fees. It is easy and safe. We do not keep donors' personal information on an online
+                            network. Choose an amount to give and the pet's name if needed. One of the most effective
+                            ways you can give is by making regular donations.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pay-and-feed__list list-three">
+                <div class="pay-and-feed__numbers">
+                    <span>03</span>
+                    <hr>
+                </div>
+                <div class="pay-and-feed__items">
+                    <div class="pay-and-feed__img">
+                        <img src="../../assets/images/monkey-with-banana.jpg" alt="monkey-with-banana">
+                    </div>
+                    <div class="pay-and-feed__block">
+                        <div class="pay-and-feed__block_img">
+                            <img src="../../assets/icons/veg.svg" alt="">
+                        </div>
+                        <h5 class="pay-and-feed__block_heading">Bring your food charity — straight to your favorites
+                            pets.</h5>
+                        <p class="pay-and-feed__block_text">After your donation, the animal receives its favorite foods.
+                            You can support your favorite animals or any animal you care about and make a real personal
+                            impact. Never doubt that your donation can make a difference even if it is small. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="pay-and-feed__btn" href="#">
+            <div class="btn__text">donate now</div>
+            <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"
+                      fill="white"/>
+            </svg>
+        </a>
+
+    </div>
+</section>
+
+<section class="feedback">
+    <div class="container">
+        <div class="feedback__wrap">
+
+            <div class="feedback__article">
+                <h3 class="feedback__title">what our users think</h3>
+                <p class="feedback__text">We are continuously striving to improve the experiences of our future guests.
+                    Below you can leave your own feedback, or simply view feedback from past clients. </p>
+            </div>
+
+            <div class="feedback__slider">
+                <div class="feedback__slider-top">
+                    <div class="feedback__slider-card">
+                        <div class="feedback__slider-card__img">
+                            <img src="../../assets/icons/quotes.svg" alt="quotes">
+                        </div>
+                        <span class="feedback__slider-card__info">New Jersey, June 2020</span>
+                        <p class="feedback__slider-card__text">I am writing to thank you for your mission is to bring
+                            people closer to nature! Like myself, children were very impressed by the opportunity to
+                            explore the life of incredible animals in real-time. </p>
+                        <span class="feedback__slider-card__author">Karen Maithlan</span>
+                    </div>
+
+                    <div class="feedback__slider-card">
+                        <div class="feedback__slider-card__img">
+                            <img src="../../assets/icons/quotes.svg" alt="quotes">
+                        </div>
+                        <span class="feedback__slider-card__info">Toronto, November 2020</span>
+                        <p class="feedback__slider-card__text">We so enjoy the ever-evolving selection of animals from
+                            around the globe. THANK YOU for sharing these fascinating animal friends with us so that we
+                            may learn and increase our understanding of the animal kingdom. </p>
+                        <span class="feedback__slider-card__author">Carol Larsen</span>
+                    </div>
+                </div>
+
+
+                <div class="feedback__slider-bottom">
+                    <div class="feedback__slider-card">
+                        <div class="feedback__slider-card__img">
+                            <img src="../../assets/icons/quotes.svg" alt="quotes">
+                        </div>
+                        <span class="feedback__slider-card__info">London, February 2020</span>
+                        <p class="feedback__slider-card__text">A fantastic experience for kids and adults alike! If
+                            anyone is looking for an attraction that educates people on wild animals – it's for you! I
+                            highly recommend seeing for yourself the variety of animals on your screen.</p>
+                        <span class="feedback__slider-card__author">C. Stockman</span>
+                    </div>
+
+                    <div class="feedback__slider-card">
+                        <div class="feedback__slider-card__img">
+                            <img src="../../assets/icons/quotes.svg" alt="quotes">
+                        </div>
+                        <span class="feedback__slider-card__info">Amsterdam, June 2020</span>
+                        <p class="feedback__slider-card__text">I want to thank you for the amazing sites you find to put
+                            your cameras to let each of us see things that we would probably never see on our own. There
+                            are so many positives on Zoo Online and I'm grateful for it. Thank you so much! </p>
+                        <span class="feedback__slider-card__author">Tomas Ray</span>
+                    </div>
+                </div>
+
+                <div class="feedback__slider-btns">
+                    <button class="feedback__slider-btn-left">
+                        <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M11.9318 0.119971C12.1139 0.199174 12.2794 0.315255 12.4187 0.461565C12.5583 0.607505 12.6691 0.780876 12.7446 0.971748C12.8202 1.16262 12.8591 1.36724 12.8591 1.57389C12.8591 1.78055 12.8202 1.98517 12.7446 2.17604C12.6691 2.36691 12.5583 2.54028 12.4187 2.68622L6.39097 9H23.5416C23.9659 9 24.3729 9.21071 24.673 9.58579C24.973 9.96086 25.1416 10.4696 25.1416 11C25.1416 11.5304 24.973 12.0391 24.673 12.4142C24.3729 12.7893 23.9659 13 23.5416 13H6.39018L12.4187 19.3146C12.7002 19.6096 12.8584 20.0097 12.8584 20.4269C12.8584 20.8441 12.7002 21.2443 12.4187 21.5393C12.1371 21.8343 11.7553 22 11.3571 22C10.959 22 10.5771 21.8343 10.2956 21.5393L1.29962 12.1127C1.15999 11.9668 1.04921 11.7934 0.973627 11.6026C0.898043 11.4117 0.859135 11.2071 0.859135 11.0004C0.859135 10.7938 0.898043 10.5891 0.973627 10.3983C1.04921 10.2074 1.15999 10.034 1.29962 9.88808L10.2956 0.461565C10.4349 0.315255 10.6003 0.199174 10.7825 0.119971C10.9646 0.0407677 11.1599 0 11.3571 0C11.5543 0 11.7496 0.0407677 11.9318 0.119971Z"
+                                  fill="white"/>
+                        </svg>
+                    </button>
+                    <button class="feedback__slider-btn-right">
+                        <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"
+                                  fill="white"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <a class="feedback__btn" href="">
+            <div class="feedback__btn-text">leave feedback</div>
+            <div class="feedback__btn-img"><img src="../../assets/icons/Arrow-W.svg" alt="arrow"></div>
+        </a>
+    </div>
+</section>
+
+<section class="care">
+    <div class="container">
+        <div class="care__article">
+            <h3 class="care__title">care for the animals you love </h3>
+            <p class="care__text">You can help to look after the animals you love with your gift today </p>
+        </div>
+
+        <div class="grid-container">
+            <div class="care__big-image">
+                <img src="../../assets/images/koala-big.jpg" alt="koala">
+            </div>
+
+
+            <a class="card__link" href="../zoos/panda/panda.html">
+                <div class="care__card panda">
+                    <div class="care__card-img">
+                        <img src="../../assets/images/panda2.jpg" alt="panda">
+                    </div>
+                    <p class="care__card-text">Your $30 could give Lucas a slice of panda cake, made with our secret
+                        recipe.<br><br></p>
+                    <a class="care__card-btn" href="../zoos/panda/panda.html">
+                        <div class="care__card-btn__text">feed</div>
+                        <svg width="28" height="25" viewBox="0 0 28 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M15.2039 0.24596C14.9987 0.335165 14.8124 0.465905 14.6555 0.630691C14.4982 0.795061 14.3735 0.990325 14.2883 1.2053C14.2032 1.42027 14.1594 1.65074 14.1594 1.88349C14.1594 2.11623 14.2032 2.3467 14.2883 2.56167C14.3735 2.77665 14.4982 2.97191 14.6555 3.13628L21.4444 10.2474H2.12822C1.65029 10.2474 1.19193 10.4847 0.85398 10.9071C0.51603 11.3296 0.326172 11.9025 0.326172 12.4999C0.326172 13.0973 0.51603 13.6703 0.85398 14.0927C1.19193 14.5152 1.65029 14.7525 2.12822 14.7525H21.4453L14.6555 21.8645C14.3384 22.1967 14.1603 22.6474 14.1603 23.1173C14.1603 23.5872 14.3384 24.0378 14.6555 24.3701C14.9726 24.7023 15.4027 24.889 15.8511 24.889C16.2995 24.889 16.7296 24.7023 17.0467 24.3701L27.1786 13.7532C27.3359 13.5888 27.4607 13.3935 27.5458 13.1786C27.6309 12.9636 27.6748 12.7331 27.6748 12.5004C27.6748 12.2676 27.6309 12.0372 27.5458 11.8222C27.4607 11.6072 27.3359 11.412 27.1786 11.2476L17.0467 0.630691C16.8898 0.465905 16.7034 0.335165 16.4983 0.24596C16.2931 0.156756 16.0732 0.11084 15.8511 0.11084C15.629 0.11084 15.409 0.156756 15.2039 0.24596Z"
+                                  fill="#F58021"/>
+                        </svg>
+                    </a>
+                </div>
+            </a>
+
+
+            <a class="card__link" href="">
+                <div class="care__card tiger">
+                    <div class="care__card-img">
+                        <img src="../../assets/images/tiger2.jpg" alt="tiger">
+                    </div>
+                    <p class="care__card-text"> Your $150 will help to care for Senja, a Sumatran tiger, for three
+                        weeks.<br><br></p>
+                    <a class="care__card-btn" href="">
+                        <div class="care__card-btn__text">feed</div>
+                        <svg width="28" height="25" viewBox="0 0 28 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M15.2039 0.24596C14.9987 0.335165 14.8124 0.465905 14.6555 0.630691C14.4982 0.795061 14.3735 0.990325 14.2883 1.2053C14.2032 1.42027 14.1594 1.65074 14.1594 1.88349C14.1594 2.11623 14.2032 2.3467 14.2883 2.56167C14.3735 2.77665 14.4982 2.97191 14.6555 3.13628L21.4444 10.2474H2.12822C1.65029 10.2474 1.19193 10.4847 0.85398 10.9071C0.51603 11.3296 0.326172 11.9025 0.326172 12.4999C0.326172 13.0973 0.51603 13.6703 0.85398 14.0927C1.19193 14.5152 1.65029 14.7525 2.12822 14.7525H21.4453L14.6555 21.8645C14.3384 22.1967 14.1603 22.6474 14.1603 23.1173C14.1603 23.5872 14.3384 24.0378 14.6555 24.3701C14.9726 24.7023 15.4027 24.889 15.8511 24.889C16.2995 24.889 16.7296 24.7023 17.0467 24.3701L27.1786 13.7532C27.3359 13.5888 27.4607 13.3935 27.5458 13.1786C27.6309 12.9636 27.6748 12.7331 27.6748 12.5004C27.6748 12.2676 27.6309 12.0372 27.5458 11.8222C27.4607 11.6072 27.3359 11.412 27.1786 11.2476L17.0467 0.630691C16.8898 0.465905 16.7034 0.335165 16.4983 0.24596C16.2931 0.156756 16.0732 0.11084 15.8511 0.11084C15.629 0.11084 15.409 0.156756 15.2039 0.24596Z"
+                                  fill="#F58021"/>
+                        </svg>
+                    </a>
+                </div>
+            </a>
+
+
+            <a class="card__link" href="../zoos/lemur/lemur.html">
+                <div class="care__card lemur">
+                    <div class="care__card-img">
+                        <img src="../../assets/images/lemur2.png" alt="lemur">
+                    </div>
+                    <p class="care__card-text"> With your support, we can give Andy his favorite fruits. Especially when
+                        it's not fruit season in its natural habitat.</p>
+                    <a class="care__card-btn" href="../zoos/lemur/lemur.html">
+                        <div class="care__card-btn__text">feed</div>
+                        <svg width="28" height="25" viewBox="0 0 28 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M15.2039 0.24596C14.9987 0.335165 14.8124 0.465905 14.6555 0.630691C14.4982 0.795061 14.3735 0.990325 14.2883 1.2053C14.2032 1.42027 14.1594 1.65074 14.1594 1.88349C14.1594 2.11623 14.2032 2.3467 14.2883 2.56167C14.3735 2.77665 14.4982 2.97191 14.6555 3.13628L21.4444 10.2474H2.12822C1.65029 10.2474 1.19193 10.4847 0.85398 10.9071C0.51603 11.3296 0.326172 11.9025 0.326172 12.4999C0.326172 13.0973 0.51603 13.6703 0.85398 14.0927C1.19193 14.5152 1.65029 14.7525 2.12822 14.7525H21.4453L14.6555 21.8645C14.3384 22.1967 14.1603 22.6474 14.1603 23.1173C14.1603 23.5872 14.3384 24.0378 14.6555 24.3701C14.9726 24.7023 15.4027 24.889 15.8511 24.889C16.2995 24.889 16.7296 24.7023 17.0467 24.3701L27.1786 13.7532C27.3359 13.5888 27.4607 13.3935 27.5458 13.1786C27.6309 12.9636 27.6748 12.7331 27.6748 12.5004C27.6748 12.2676 27.6309 12.0372 27.5458 11.8222C27.4607 11.6072 27.3359 11.412 27.1786 11.2476L17.0467 0.630691C16.8898 0.465905 16.7034 0.335165 16.4983 0.24596C16.2931 0.156756 16.0732 0.11084 15.8511 0.11084C15.629 0.11084 15.409 0.156756 15.2039 0.24596Z"
+                                  fill="#F58021"/>
+                        </svg>
+                    </a>
+                </div>
+            </a>
+
+
+            <a class="card__link" href="../zoos/eagle/eagle.html">
+                <div class="care__card eagle">
+                    <div class="care__card-img">
+                        <img src="../../assets/images/eagles2.jpg" alt="eagles">
+                    </div>
+                    <p class="care__card-text">Sam & Lora have hatched and raised numerous young and will be happy with
+                        your help.</p>
+                    <a class="care__card-btn" href="../zoos/eagle/eagle.html">
+                        <div class="care__card-btn__text">feed</div>
+                        <svg width="28" height="25" viewBox="0 0 28 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M15.2039 0.24596C14.9987 0.335165 14.8124 0.465905 14.6555 0.630691C14.4982 0.795061 14.3735 0.990325 14.2883 1.2053C14.2032 1.42027 14.1594 1.65074 14.1594 1.88349C14.1594 2.11623 14.2032 2.3467 14.2883 2.56167C14.3735 2.77665 14.4982 2.97191 14.6555 3.13628L21.4444 10.2474H2.12822C1.65029 10.2474 1.19193 10.4847 0.85398 10.9071C0.51603 11.3296 0.326172 11.9025 0.326172 12.4999C0.326172 13.0973 0.51603 13.6703 0.85398 14.0927C1.19193 14.5152 1.65029 14.7525 2.12822 14.7525H21.4453L14.6555 21.8645C14.3384 22.1967 14.1603 22.6474 14.1603 23.1173C14.1603 23.5872 14.3384 24.0378 14.6555 24.3701C14.9726 24.7023 15.4027 24.889 15.8511 24.889C16.2995 24.889 16.7296 24.7023 17.0467 24.3701L27.1786 13.7532C27.3359 13.5888 27.4607 13.3935 27.5458 13.1786C27.6309 12.9636 27.6748 12.7331 27.6748 12.5004C27.6748 12.2676 27.6309 12.0372 27.5458 11.8222C27.4607 11.6072 27.3359 11.412 27.1786 11.2476L17.0467 0.630691C16.8898 0.465905 16.7034 0.335165 16.4983 0.24596C16.2931 0.156756 16.0732 0.11084 15.8511 0.11084C15.629 0.11084 15.409 0.156756 15.2039 0.24596Z"
+                                  fill="#F58021"/>
+                        </svg>
+                    </a>
+                </div>
+            </a>
+
+        </div>
+        <a class="care__btn btn-navy" href="../map/map.html">
+            <div class="btn-navy__text">choose your favourite</div>
+            <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"
+                      fill="#20113D"/>
+            </svg>
+        </a>
+
+        <div class="care__touch-img">
+            <img src="../../assets/images/touch-the-animal.jpg" alt="Touch the animal">
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__top">
+            <div class="footer__logo">
+                <a class="footer__logo-link" href="../main/index.html"><img src="../../assets/icons/Logo-white.svg"
+                                                                            alt="logo"></a>
+                <a class="footer__logo-link" href="##" title="Yem Digital"><img
+                        src="../../assets/icons/Yem%20Digital.svg" alt="yem digital logo"></a>
+                <a class="footer__logo-link" href="##" title="RSSchool"><img src="../../assets/icons/rs_school_js.svg"
+                                                                             alt="rsschool"></a>
+            </div>
+            <nav class="footer__nav">
+                <ul class="footer__nav-list">
+                    <li class="footer__nav-list__item"><a class="footer__nav-list__item-link" href="#">About</a></li>
+                    <li class="footer__nav-list__item"><a class="footer__nav-list__item-link"
+                                                          href="../map/map.html">map</a></li>
+                    <li class="footer__nav-list__item"><a class="footer__nav-list__item-link"
+                                                          href="../zoos/panda/panda.html">zoos</a></li>
+                    <li class="footer__nav-list__item"><a class="footer__nav-list__item-link"
+                                                          href="../contact/contact.html">contact us</a>
+                    </li>
+                </ul>
+            </nav>
+            <a class="footer__btn" href="">
+                <div class="footer__btn-text">donate for volunteers</div>
+                <div class="footer__btn-img">
+                    <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"
+                              fill="white"/>
+                    </svg>
+                </div>
+            </a>
+        </div>
+        <div class="footer__bottom">
+            <div class="footer__copyright">
+                <span class="footer__copyright-item">&copy; 2021 DinaK</span>
+                <span class="footer__copyright-item">&copy; Yem Digital</span>
+                <span class="footer__copyright-item">&copy; RSSchool</span>
+            </div>
+            <nav>
+                <ul class="footer__social">
+                    <li class="footer__social-item"><a class="footer__social-link social__youtube"
+                                                       href="https://www.youtube.com/"></a></li>
+                    <li class="footer__social-item"><a class="footer__social-link social__instagram"
+                                                       href="https://www.instagram.com/"></a></li>
+                    <li class="footer__social-item"><a class="footer__social-link social__facebook"
+                                                       href="https://www.facebook.com/"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
